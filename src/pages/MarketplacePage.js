@@ -36,7 +36,6 @@ const MarketplacePage = () => {
                 <div className="row mt-4">
                     <div className="col-md-4 p-0">
                         <img src={MarketCard} width="100%" />
-                        {/* <div className="shadow p-4"><span>Trending Stocks</span></div> */}
                     </div>
                     <div className="col-md-4">
                         <img src={MarketCard} width="100%" />
