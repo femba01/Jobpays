@@ -30,7 +30,9 @@ const MarketplacePage = () => {
                     </div>
                 </div>
             </section>
+
             <img src={Secline} width="100%" />
+            
             <section className="second-section">
                 <h3>Market Overview</h3>
                 <div className="row mt-4">
