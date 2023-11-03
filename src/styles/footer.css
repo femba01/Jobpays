@@ -1,0 +1,14 @@
+.footer-section {
+    background-color: #008CFE;
+    padding: 5% 8% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.footer-copyright {
+    background-color: #283593;
+    font-size: 14px;
+    padding: 1.5% 5% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}

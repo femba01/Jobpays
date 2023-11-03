@@ -1,0 +1,28 @@
+.header-section {
+    padding: 0 5% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+.menuLink {
+    font-family: 'Ubuntu';
+    font-weight: 300 !important;
+    font-size: 16px;
+    color: #021228 !important;
+    opacity: 1;
+    margin: auto 30px;
+    text-decoration: none;
+}
+.menuLink:hover {
+    color: #008CFE !important;
+    border-bottom: #008CFE 1px solid;
+}
+.activeMenuLink {
+    font-family: 'Ubuntu';
+    font-weight: 400 !important;
+    font-size: 16px;
+    color: #008CFE !important;
+    opacity: 1;
+    margin: auto 30px;
+    text-decoration: none;
+    border-bottom: #008CFE 1px solid !important;
+}
