@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+Jobpays is a high-converting, responsive landing page built with React, TypeScript, and Bootstrap. This repository powers the marketing storefront for the Jobpays ecosystem, showcasing features, tokenomics, and user onboarding with a sleek, mobile-first design.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Key Features
 
-## Available Scripts
+⚡ Crypto-Centric Design: Clean, conversion-focused UI tailored for the Web3 and DeFi audience.
+📱 Mobile-First Layout: Engineered with Bootstrap’s grid system for flawless display across all devices.
+🔒 Type-Safe Components: Built with TypeScript to ensure strict data handling and zero runtime UI crashes.
+💨 Optimized Performance: High-speed asset loading and clean build output for maximum retention.
 
-In the project directory, you can run:
+🛠 Tech Stack
 
-### `yarn start`
+Library: React
+Language: TypeScript
+Styling Framework: Bootstrap 5
+Icons: FontAwesome / Bootstrap Icons
+Build Tool: Vite (or Create React App)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+📦 Getting Started
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Prerequisites
+Ensure you have Node.js (v18+) installed.
 
-### `yarn test`
+Installation
+Clone the repository:
+bash
+git clone https://github.com
+cd jobpays-landing
+Use code with caution.
+Install dependencies:
+bash
+yarn install
+Use code with caution.
+Start the development server:
+bash
+yarn run start
+Use code with caution.
+📂 Architecture
+text
+src/
+├── assets/             # Branding, crypto tokens, and hero images
+├── components/         # Reusable UI elements (Buttons, Cards, Forms)
+├── sections/           # Landing page blocks (Hero, Features, Tokenomics, FAQ)
+├── styles/             # Custom Bootstrap overrides and Sass variables
+├── App.tsx             # Main layout wrapper
+└── main.tsx            # Application entry point
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Use code with caution.
+📝 License
+Distributed under the MIT License. See LICENSE for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
